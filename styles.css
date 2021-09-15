@@ -1,11 +1,30 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-logo {
-  padding: 0 2rem;
+body {
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgba(255, 255, 255, 0);
+  font-family: "Raleway", "Sans serif";
+  font-weight: bold;
 }
 
-h1, h2, h3 {
-  
+.logo {
+  position: relative;
+  padding: 0 32px;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+  font-size: 1.5em;
+  margin-top: 0.67em;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+#hebergements-marseille {
+  font-weight: normal;
 }
